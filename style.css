@@ -1,0 +1,100 @@
+/* Style for the animal cards container */
+
+.animal-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(218, 193, 213);
+}
+
+
+/* style h1 elements */
+
+h1 {
+    text-align: center;
+    background-color: #e4daf3;
+}
+
+
+/* style for span elements */
+
+h1 span {
+    color: #c04242;
+}
+
+
+/* add style for each card */
+
+.animal-card {
+    border: 2px solid #b796ec;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 8px;
+    width: 150px;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+/* add style to the images in the animal cards */
+
+.animal-card img {
+    max-width: 150px;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+
+/* Style for the animal name */
+
+.animal-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #0b0202;
+}
+
+
+/* Style for the vote button */
+
+.vote-button {
+    background-color: #314dcb;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+}
+
+
+/* Style for the vote count */
+
+.vote-count {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+
+/* Style for the delete vote button */
+
+.delete-button {
+    background-color: #ff4444;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+/* Style for the delete button on hover */
+
+.delete-button:hover {
+    background-color: #ff0000;
+}
+
+.animal-details img {
+    max-width: 500px;
+}
